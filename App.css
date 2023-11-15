@@ -1,0 +1,230 @@
+.navbar + div {
+  margin: 40px;
+}
+
+.navbar {
+  background-color: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* position: fixed; */
+  height: 50px;
+  width: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:first-child {
+  color: orange;
+  font-weight: 700;
+}
+
+/* WELCOME */
+
+.welcome {
+  text-align: center;
+  margin-top: 170px;
+}
+
+.welcome > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.welcome .link  {
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+
+/* CADASTRO */
+
+.cadastro {
+  margin-top: 130px;
+}
+
+#c1 {
+  margin-top: 18px;
+}
+
+.cadastro form {
+  border: 2px solid purple;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.cadastro form h3 {
+  text-align: center;
+}
+
+.cadastro form label {
+  margin-bottom: 8px;
+}
+
+.cadastro form input {
+  display: block;
+  width: 500px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.cadastro form button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: purple;
+  transition: 300ms;
+  color: white;
+  border: none;
+}
+
+.cadastro form button:hover {
+  cursor: pointer;
+  background-color: orangered;
+}
+
+.cadastro .container a {
+  color: black;
+  text-decoration: underline;
+}
+
+.cadastro .container form button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.cadastro h1 span {
+  color: orangered;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.cadastro .form-item {
+  margin-bottom: 16px;
+}
+
+.cadastro .container {
+  display: flex;
+  align-items: center;
+}
+
+.cadastro .container-texto {
+  margin: 40px;
+  margin-left: 140px;
+}
+
+.cadastro .container-texto h1 {
+  font-weight: 700;
+}
+
+.cadastro .container-form {
+  margin: 0px 40px;
+  padding: 10px;
+  margin-right: 140px;
+}
+
+/* EXPLORE */
+
+.category {
+  background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2012/11/25/22436/a0df04c40df437f6bb08a237b3d22a6d-700.jpg');
+  background-size: cover;
+  width: 240px;
+  height: 55px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.category:hover {
+  cursor: pointer;
+    color: orangered;
+    transition: 0.2s;
+}
+
+.explore input {
+  display: block;
+  padding: 10px;
+  width: 794px;
+  margin: 30px 10px 20px;
+}
+
+.explore h2 {
+  text-align: center;
+}
+
+/* GAMECARD */
+
+.gamecard {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 14px;
+  padding: 10px;
+  display: inline-block;
+  width: 194px;
+  height: 190px;
+}
+
+.gamecard:hover {
+  cursor: pointer;
+}
+
+.gamecard h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.gamecard p {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+/* HOME */
+
+.home h1 {
+  text-align: center;
+}
+
+/* PERFIL */
+
+.perfil button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: orangered;
+  transition: 300ms;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+
+.perfil button:hover {
+  cursor: pointer;
+}
+
+.perfil h2 {
+  margin-bottom: 0px;
+}
+
+.perfil h4 {
+  margin-bottom: 0px;
+}
+
+.perfil div > div > div {
+  display: inline-block;
+  margin: 20px;
+}
+
+.perfil p {
+  border-bottom: 1px solid orange;
+  padding-left: 3px;
+  padding-right: 3px;
+}
